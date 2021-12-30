@@ -1,0 +1,50 @@
+.container-about-us {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  content: "";
+  display: block;
+  height: 120px;
+  background-color: var(--second-white-color);
+  margin-bottom: 30px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-about-us {
+  display: inline;
+  align-content: center;
+  margin: 25px 100px;
+  width: 70px;
+  height: 70px;
+}
+.about-us-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+ @include font ($fz, $fw, $lh, $ls);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--grey-color);
+}
+.list-about-us {
+  display: flex;
+  flex-direction: row;
+}
+.about-us-item {
+  flex-basis: calc((100% - 90px) / 4);
+  margin-right: 30px;
+  &:nth-child(4n) {
+    margin-right: 0px;
+  }
+}
+
+.about-us-text {
+  margin: 0 auto;
+  @include font ($fz, $fw, $lh, $ls);
+  // font-size: 14px;
+  // line-height: 1.71;
+  color: var(--light-grey-color);
+}
