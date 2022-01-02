@@ -5,10 +5,11 @@ body {
   color: var(--grey-color);
 }
 .list,
-.list-about-us,
-.activities-list,
-.our-team-list,
+.about-us__list,
+.activities__list,
+.our-team-list__item,
 .contacts-footeer-list,
+.social-list,
 .works-list,
 .project-list {
   margin: 0px;

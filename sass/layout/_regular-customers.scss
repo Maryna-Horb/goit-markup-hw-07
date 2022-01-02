@@ -1,26 +1,24 @@
-.regular-customers-title {
+
+.regular-customers__title {
   margin: 0 auto;
-  @include font (36px, $fw, 1.17, $ls);
-  // font-weight: 700;
-  // font-size: 36px;
-  // line-height: 1.17;
+  @include font(36px, 700, 1.17, 0.03em);
   align-items: center;
   text-align: center;
   margin-bottom: 50px;
   color: var(--grey-color);
 }
-.regulars-customers-item {
+.regular-customers__item {
   width: 170px;
   height: 92px;
-  & + .regulars-customers-item {
+  & + .regular-customers__item {
     margin-left: 30px;
   }
 }
-.regular-customers-list {
+.regular-customers__list {
   display: flex;
   align-items: center;
 }
-.regular-icon {
+.regular-customers__icon {
   display: flex;
   width: 100%;
   height: 100%;
@@ -38,7 +36,7 @@
     color: var(--light-blue-color);
   }
 }
-.icon-customers {
+.regular-customers__icon-customers {
   align-items: center;
   justify-content: center;
 }
